@@ -11,19 +11,4 @@ int main (int argc, char* argv[])
 	cout << "funciona: " << n << endl;
 	l->printAll();
 	delete l;
-	LinkedList *r = new LinkedList;
-	r->append(100);
-	r->append(200);
-	r->append(300);
-	r->printAll();
-	delete r;
-	int a[] = {1,2,3};
-	LinkedList *b = new LinkedList(a,2);
-	b->append(2);
-	b->append(3);
-	b->printAll();
-	delete b;
-	
-	
-	
 }
